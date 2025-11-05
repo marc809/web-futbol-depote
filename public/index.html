@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es" class="bg-gray-900 text-white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de Fútbol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans antialiased">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-4xl">
+        
+        <h1 class="text-4xl font-bold mb-4 text-cyan-400"> WebFutbol </h1>
+        
+        <div id="auth-container" class="mb-8">
+            </div>
+
+        <div id="ligas-container">
+            <h2 class="text-3xl font-semibold mb-4">Ligas Disponibles</h2>
+            <div id="ligas-lista" class="text-lg">
+                Cargando ligas...
+            </div>
+        </div>
+
+        <div id="standings-container" class="hidden">
+            
+            <button id="back-button" class="mb-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200">
+                &larr; Volver a Ligas
+            </button>
+            
+            <h2 id="standings-title" class="text-3xl font-semibold mb-4">
+                </h2>
+
+            <div id="standings-table" class="overflow-x-auto rounded-lg shadow-md">
+                Cargando tabla...
+            </div>
+
+            <div id="matches-container" class="mt-8">
+                <h3 class="text-2xl font-semibold mb-4">Próximos Partidos</h3>
+                <div id="matches-list">
+                    Cargando partidos...
+                </div>
+            </div>
+            
+        </div> <!-- Cierre de standings-container -->
+        
+        <div id="quiz-section" class="mt-8">
+            <h2 class="text-3xl font-semibold mb-4">Quiz de Fútbol</h2>
+            
+            <button id="start-quiz-button" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200">
+                ¡Empezar Quiz!
+            </button>
+
+            <div id="quiz-container" class="hidden mt-4 p-4 bg-gray-800 rounded-lg shadow-md">
+                
+                <div id="quiz-stats-container" class="mb-4 text-lg font-bold text-cyan-400">
+                    </div>
+                
+                <h3 id="question-text" class="text-2xl font-semibold mb-4"></h3>
+                
+                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    </div>
+                
+                <div id="feedback-container" class="mt-4 text-lg font-semibold"></div>
+
+            </div>
+        </div> <!-- Cierre de quiz-section -->
+
+        <!-- ================================== -->
+        <!-- ¡¡NUEVA SECCIÓN: LEADERBOARD!! -->
+        <!-- ================================== -->
+        <div id="leaderboard-section" class="mt-8">
+            <h2 class="text-3xl font-semibold mb-4">Mejores Puntajes (Top 10)</h2>
+            <div id="leaderboard-container" class="p-4 bg-gray-800 rounded-lg shadow-md">
+                <p>Cargando mejores puntajes...</p>
+                <!-- Aquí se generará la lista con JavaScript -->
+            </div>
+        </div>
+        <!-- ================================== -->
+        <!-- FIN DE LEADERBOARD -->
+        <!-- ================================== -->
+
+    </div> <!-- Cierre de container mx-auto -->
+    
+    <script src="frontend.js"></script>
+</body>
+</html>

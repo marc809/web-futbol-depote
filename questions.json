@@ -1,0 +1,5002 @@
+[
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1930?",
+    "opciones": [
+      "Francia",
+      "Brasil",
+      "Uruguay",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1934?",
+    "opciones": [
+      "Alemania",
+      "Países Bajos",
+      "Italia",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1938?",
+    "opciones": [
+      "Alemania",
+      "Países Bajos",
+      "Argentina",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1950?",
+    "opciones": [
+      "Uruguay",
+      "Países Bajos",
+      "España",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1954?",
+    "opciones": [
+      "España",
+      "Alemania",
+      "Brasil",
+      "Italia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1958?",
+    "opciones": [
+      "Uruguay",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1962?",
+    "opciones": [
+      "Francia",
+      "Uruguay",
+      "Croacia",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1966?",
+    "opciones": [
+      "España",
+      "Países Bajos",
+      "Alemania",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1970?",
+    "opciones": [
+      "Croacia",
+      "Uruguay",
+      "Argentina",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1974?",
+    "opciones": [
+      "Alemania",
+      "España",
+      "Francia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1978?",
+    "opciones": [
+      "Italia",
+      "Francia",
+      "Uruguay",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1982?",
+    "opciones": [
+      "Argentina",
+      "Italia",
+      "Países Bajos",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1986?",
+    "opciones": [
+      "Uruguay",
+      "España",
+      "Argentina",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1990?",
+    "opciones": [
+      "Alemania",
+      "Uruguay",
+      "Croacia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1994?",
+    "opciones": [
+      "Brasil",
+      "Italia",
+      "Argentina",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 1998?",
+    "opciones": [
+      "España",
+      "Uruguay",
+      "Francia",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 2002?",
+    "opciones": [
+      "España",
+      "Italia",
+      "Alemania",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 2006?",
+    "opciones": [
+      "Croacia",
+      "Italia",
+      "Países Bajos",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 2010?",
+    "opciones": [
+      "Francia",
+      "Alemania",
+      "España",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 2014?",
+    "opciones": [
+      "Inglaterra",
+      "España",
+      "Italia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 2018?",
+    "opciones": [
+      "Países Bajos",
+      "Francia",
+      "Alemania",
+      "Italia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó la Copa del Mundo en 2022?",
+    "opciones": [
+      "Países Bajos",
+      "Italia",
+      "Uruguay",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Real Madrid?",
+    "opciones": [
+      "Brasil",
+      "Portugal",
+      "España",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club FC Barcelona?",
+    "opciones": [
+      "Inglaterra",
+      "Alemania",
+      "Países Bajos",
+      "España"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Manchester United?",
+    "opciones": [
+      "Inglaterra",
+      "Italia",
+      "Brasil",
+      "México"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Liverpool?",
+    "opciones": [
+      "Inglaterra",
+      "Alemania",
+      "México",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Bayern Múnich?",
+    "opciones": [
+      "Inglaterra",
+      "México",
+      "Alemania",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Juventus?",
+    "opciones": [
+      "Países Bajos",
+      "Italia",
+      "España",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club AC Milan?",
+    "opciones": [
+      "Inglaterra",
+      "España",
+      "Alemania",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Inter de Milán?",
+    "opciones": [
+      "Italia",
+      "Inglaterra",
+      "Alemania",
+      "México"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club PSG?",
+    "opciones": [
+      "México",
+      "Alemania",
+      "Francia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Chelsea?",
+    "opciones": [
+      "Inglaterra",
+      "Alemania",
+      "Argentina",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Manchester City?",
+    "opciones": [
+      "España",
+      "Argentina",
+      "Portugal",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Ajax?",
+    "opciones": [
+      "México",
+      "Países Bajos",
+      "Brasil",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Benfica?",
+    "opciones": [
+      "Brasil",
+      "Alemania",
+      "Francia",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Porto?",
+    "opciones": [
+      "México",
+      "Inglaterra",
+      "Portugal",
+      "España"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club River Plate?",
+    "opciones": [
+      "Alemania",
+      "Argentina",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Boca Juniors?",
+    "opciones": [
+      "Francia",
+      "Brasil",
+      "Argentina",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Santos?",
+    "opciones": [
+      "España",
+      "Francia",
+      "Alemania",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Palmeiras?",
+    "opciones": [
+      "México",
+      "Países Bajos",
+      "Brasil",
+      "España"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Corinthians?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "Inglaterra",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Flamengo?",
+    "opciones": [
+      "Países Bajos",
+      "Brasil",
+      "Inglaterra",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Celtic?",
+    "opciones": [
+      "Argentina",
+      "Escocia",
+      "Países Bajos",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Rangers?",
+    "opciones": [
+      "Alemania",
+      "Portugal",
+      "Escocia",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Borussia Dortmund?",
+    "opciones": [
+      "Portugal",
+      "Inglaterra",
+      "Brasil",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Atlético de Madrid?",
+    "opciones": [
+      "Alemania",
+      "Inglaterra",
+      "España",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Sevilla?",
+    "opciones": [
+      "Portugal",
+      "Inglaterra",
+      "España",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Napoli?",
+    "opciones": [
+      "Países Bajos",
+      "México",
+      "Francia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Roma?",
+    "opciones": [
+      "Italia",
+      "Francia",
+      "México",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club Monterrey?",
+    "opciones": [
+      "México",
+      "Portugal",
+      "Alemania",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país se encuentra el club América?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "Francia",
+      "México"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Lionel Messi durante su carrera profesional?",
+    "opciones": [
+      "Manchester United",
+      "Juventus",
+      "FC Barcelona",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Cristiano Ronaldo durante su carrera profesional?",
+    "opciones": [
+      "Napoli",
+      "Boca Juniors",
+      "FC Barcelona",
+      "Manchester United"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé durante su carrera profesional?",
+    "opciones": [
+      "FC Barcelona",
+      "Santos",
+      "AC Milan",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Diego Maradona durante su carrera profesional?",
+    "opciones": [
+      "Juventus",
+      "AC Milan",
+      "FC Barcelona",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane durante su carrera profesional?",
+    "opciones": [
+      "Bordeaux",
+      "River Plate",
+      "Real Madrid",
+      "PSG"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Ronaldinho durante su carrera profesional?",
+    "opciones": [
+      "Manchester United",
+      "Inter de Milán",
+      "Boca Juniors",
+      "PSG"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé durante su carrera profesional?",
+    "opciones": [
+      "Boca Juniors",
+      "PSG",
+      "Monaco",
+      "River Plate"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr durante su carrera profesional?",
+    "opciones": [
+      "Santos",
+      "FC Barcelona",
+      "PSG",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Miroslav Klose durante su carrera profesional?",
+    "opciones": [
+      "1. FC Kaiserslautern",
+      "PSG",
+      "FC Barcelona",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller durante su carrera profesional?",
+    "opciones": [
+      "Bayern Múnich",
+      "Juventus",
+      "Real Madrid",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić durante su carrera profesional?",
+    "opciones": [
+      "Tottenham Hotspur",
+      "Juventus",
+      "Real Madrid",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Johan Cruyff durante su carrera profesional?",
+    "opciones": [
+      "Ajax",
+      "Real Madrid",
+      "FC Barcelona",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Franz Beckenbauer durante su carrera profesional?",
+    "opciones": [
+      "Inter de Milán",
+      "Napoli",
+      "Boca Juniors",
+      "Bayern Múnich"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Roberto Baggio durante su carrera profesional?",
+    "opciones": [
+      "Juventus",
+      "Boca Juniors",
+      "FC Barcelona",
+      "Fiorentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio durante su carrera profesional?",
+    "opciones": [
+      "Benfica",
+      "AC Milan",
+      "Real Madrid",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gabriel Batistuta durante su carrera profesional?",
+    "opciones": [
+      "Boca Juniors",
+      "River Plate",
+      "Juventus",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Alfredo Di Stéfano durante su carrera profesional?",
+    "opciones": [
+      "Boca Juniors",
+      "Juventus",
+      "River Plate",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Sergio Ramos durante su carrera profesional?",
+    "opciones": [
+      "Manchester United",
+      "Sevilla",
+      "River Plate",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Paolo Maldini durante su carrera profesional?",
+    "opciones": [
+      "AC Milan",
+      "Boca Juniors",
+      "Juventus",
+      "PSG"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo durante su carrera profesional?",
+    "opciones": [
+      "Santos",
+      "Brescia",
+      "River Plate",
+      "PSG"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Pelé",
+      "Miroslav Klose",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Lionel Messi",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué club tiene más títulos de la UEFA Champions League?",
+    "opciones": [
+      "Real Madrid",
+      "AC Milan",
+      "Liverpool",
+      "Bayern Múnich"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué club argentino es conocido por su estadio 'La Bombonera'?",
+    "opciones": [
+      "Boca Juniors",
+      "River Plate",
+      "Independiente",
+      "Racing Club"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué club inglés juega en Old Trafford?",
+    "opciones": [
+      "Manchester United",
+      "Manchester City",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué ciudad juega sus partidos el FC Barcelona?",
+    "opciones": [
+      "Barcelona",
+      "Madrid",
+      "Valencia",
+      "Sevilla"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué año se celebró el primer Mundial de fútbol?",
+    "opciones": [
+      "1926",
+      "1930",
+      "1934",
+      "1938"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué año ganó Argentina su primera Copa del Mundo?",
+    "opciones": [
+      "1966",
+      "1978",
+      "1986",
+      "1990"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién ganó el Balón de Oro en 2008?",
+    "opciones": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Kaka",
+      "Andrés Iniesta"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién ganó el Balón de Oro en 2019?",
+    "opciones": [
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Luka Modrić",
+      "Virgil van Dijk"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Cuál fue el resultado de la final del Mundial 2014 entre Alemania y Argentina?",
+    "opciones": [
+      "1-0 a favor de Alemania (tiempo extra)",
+      "1-0 a favor de Argentina",
+      "2-1 a favor de Alemania",
+      "3-2 a favor de Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién ganó la final del Mundial 2018?",
+    "opciones": [
+      "Francia",
+      "Croacia",
+      "Brasil",
+      "Bélgica"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Alfredo Di Stéfano?",
+    "opciones": [
+      "FC Barcelona",
+      "Boca Juniors",
+      "River Plate",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Benfica",
+      "AC Milan",
+      "PSG",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Zlatan Ibrahimović",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Eusebio",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "Argentina",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé?",
+    "opciones": [
+      "Monaco",
+      "Ajax",
+      "PSG",
+      "Manchester United"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Eusebio",
+      "Pelé",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Eusebio",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Celtic?",
+    "opciones": [
+      "México",
+      "España",
+      "Escocia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Real Madrid",
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Miroslav Klose",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Sevilla?",
+    "opciones": [
+      "Inglaterra",
+      "Alemania",
+      "España",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane?",
+    "opciones": [
+      "Bordeaux",
+      "Napoli",
+      "Ajax",
+      "Santos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1958?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "Uruguay",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Croacia",
+      "Alemania",
+      "España",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Borussia Dortmund?",
+    "opciones": [
+      "Italia",
+      "Inglaterra",
+      "Argentina",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1938?",
+    "opciones": [
+      "Croacia",
+      "Italia",
+      "Alemania",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Robert Lewandowski",
+      "Real Madrid",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club PSG?",
+    "opciones": [
+      "Francia",
+      "Países Bajos",
+      "Argentina",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "Uruguay",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Croacia",
+      "Países Bajos",
+      "Alemania",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Inter de Milán?",
+    "opciones": [
+      "Italia",
+      "Argentina",
+      "Países Bajos",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller?",
+    "opciones": [
+      "Bayern Múnich",
+      "Napoli",
+      "Boca Juniors",
+      "Benfica"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Eusebio",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Diego Maradona?",
+    "opciones": [
+      "AC Milan",
+      "Benfica",
+      "Real Madrid",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé?",
+    "opciones": [
+      "PSG",
+      "Juventus",
+      "Monaco",
+      "Santos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1966?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "Argentina",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Italia",
+      "Croacia",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Monterrey?",
+    "opciones": [
+      "México",
+      "Brasil",
+      "Francia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Cristiano Ronaldo?",
+    "opciones": [
+      "Ajax",
+      "Inter de Milán",
+      "Juventus",
+      "Manchester United"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Corinthians?",
+    "opciones": [
+      "Francia",
+      "Inglaterra",
+      "Brasil",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Palmeiras?",
+    "opciones": [
+      "Brasil",
+      "Portugal",
+      "España",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "Brasil",
+      "España"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé?",
+    "opciones": [
+      "Ajax",
+      "Napoli",
+      "Monaco",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Juventus?",
+    "opciones": [
+      "España",
+      "Italia",
+      "Francia",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller?",
+    "opciones": [
+      "PSG",
+      "Santos",
+      "Juventus",
+      "Bayern Múnich"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2018?",
+    "opciones": [
+      "Inglaterra",
+      "Francia",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1954?",
+    "opciones": [
+      "Alemania",
+      "Inglaterra",
+      "Países Bajos",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Lionel Messi",
+      "Pelé",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Zlatan Ibrahimović",
+      "Pelé",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester United?",
+    "opciones": [
+      "Argentina",
+      "Inglaterra",
+      "España",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gabriel Batistuta?",
+    "opciones": [
+      "Santos",
+      "Inter de Milán",
+      "Boca Juniors",
+      "PSG"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Miroslav Klose",
+      "Pelé",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić?",
+    "opciones": [
+      "Tottenham Hotspur",
+      "Manchester United",
+      "Santos",
+      "PSG"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club River Plate?",
+    "opciones": [
+      "México",
+      "Inglaterra",
+      "Argentina",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Rangers?",
+    "opciones": [
+      "España",
+      "Países Bajos",
+      "Italia",
+      "Escocia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Miroslav Klose",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1994?",
+    "opciones": [
+      "Francia",
+      "Brasil",
+      "Inglaterra",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2006?",
+    "opciones": [
+      "España",
+      "Alemania",
+      "Italia",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Celtic?",
+    "opciones": [
+      "Escocia",
+      "Argentina",
+      "México",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Lionel Messi",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club PSG?",
+    "opciones": [
+      "Alemania",
+      "España",
+      "Francia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "España",
+      "Uruguay",
+      "Países Bajos",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester City?",
+    "opciones": [
+      "España",
+      "Inglaterra",
+      "Argentina",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Alfredo Di Stéfano?",
+    "opciones": [
+      "Manchester United",
+      "Napoli",
+      "River Plate",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "España",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Argentina",
+      "España",
+      "Alemania",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2018?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "Croacia",
+      "Francia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé?",
+    "opciones": [
+      "Ajax",
+      "Manchester United",
+      "Santos",
+      "PSG"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club FC Barcelona?",
+    "opciones": [
+      "España",
+      "México",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Napoli",
+      "Manchester United",
+      "Santos",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Flamengo?",
+    "opciones": [
+      "Portugal",
+      "Países Bajos",
+      "Brasil",
+      "España"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1994?",
+    "opciones": [
+      "Francia",
+      "Brasil",
+      "Croacia",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club River Plate?",
+    "opciones": [
+      "Argentina",
+      "Italia",
+      "Brasil",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Alemania",
+      "España",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Flamengo?",
+    "opciones": [
+      "Brasil",
+      "España",
+      "Argentina",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé?",
+    "opciones": [
+      "Napoli",
+      "Monaco",
+      "Juventus",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Chelsea?",
+    "opciones": [
+      "Países Bajos",
+      "Inglaterra",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Chelsea?",
+    "opciones": [
+      "España",
+      "México",
+      "Inglaterra",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1958?",
+    "opciones": [
+      "Brasil",
+      "Croacia",
+      "España",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club River Plate?",
+    "opciones": [
+      "Argentina",
+      "España",
+      "México",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1938?",
+    "opciones": [
+      "Uruguay",
+      "Francia",
+      "España",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Croacia",
+      "España",
+      "Francia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Alemania",
+      "Argentina",
+      "Inglaterra",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Eusebio",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Inter de Milán?",
+    "opciones": [
+      "Italia",
+      "México",
+      "Alemania",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Roberto Baggio?",
+    "opciones": [
+      "Ajax",
+      "Fiorentina",
+      "Napoli",
+      "Santos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1962?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "Brasil",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Brasil",
+      "Inglaterra",
+      "España",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo?",
+    "opciones": [
+      "Benfica",
+      "AC Milan",
+      "Brescia",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Roma?",
+    "opciones": [
+      "Portugal",
+      "Argentina",
+      "Italia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo?",
+    "opciones": [
+      "Brescia",
+      "River Plate",
+      "Juventus",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Diego Maradona?",
+    "opciones": [
+      "FC Barcelona",
+      "River Plate",
+      "PSG",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Uruguay",
+      "Francia",
+      "Croacia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "Inglaterra",
+      "España",
+      "Portugal",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Cristiano Ronaldo",
+      "Miroslav Klose",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Boca Juniors?",
+    "opciones": [
+      "Italia",
+      "Alemania",
+      "España",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club América?",
+    "opciones": [
+      "Brasil",
+      "Italia",
+      "México",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Alemania",
+      "Argentina",
+      "Países Bajos",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Napoli?",
+    "opciones": [
+      "Portugal",
+      "Inglaterra",
+      "Italia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1994?",
+    "opciones": [
+      "Italia",
+      "Alemania",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2022?",
+    "opciones": [
+      "Croacia",
+      "Italia",
+      "Argentina",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester United?",
+    "opciones": [
+      "España",
+      "Italia",
+      "Inglaterra",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2022?",
+    "opciones": [
+      "Inglaterra",
+      "Argentina",
+      "España",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Croacia",
+      "Francia",
+      "Alemania",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Diego Maradona?",
+    "opciones": [
+      "Inter de Milán",
+      "AC Milan",
+      "Benfica",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Juventus?",
+    "opciones": [
+      "Argentina",
+      "México",
+      "Italia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Paolo Maldini?",
+    "opciones": [
+      "Ajax",
+      "AC Milan",
+      "Manchester United",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "España",
+      "Portugal",
+      "Alemania",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Johan Cruyff?",
+    "opciones": [
+      "Benfica",
+      "Manchester United",
+      "Napoli",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo?",
+    "opciones": [
+      "Brescia",
+      "Ajax",
+      "FC Barcelona",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1990?",
+    "opciones": [
+      "Alemania",
+      "Inglaterra",
+      "Brasil",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Inter de Milán?",
+    "opciones": [
+      "Francia",
+      "Italia",
+      "Países Bajos",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Miroslav Klose?",
+    "opciones": [
+      "Ajax",
+      "Benfica",
+      "Juventus",
+      "1. FC Kaiserslautern"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane?",
+    "opciones": [
+      "Real Madrid",
+      "Manchester United",
+      "Bordeaux",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Porto?",
+    "opciones": [
+      "Portugal",
+      "Francia",
+      "Alemania",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Pelé",
+      "Eusebio",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Real Madrid",
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Benfica?",
+    "opciones": [
+      "Brasil",
+      "Inglaterra",
+      "Portugal",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Santos?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "Alemania",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Diego Maradona?",
+    "opciones": [
+      "Real Madrid",
+      "Boca Juniors",
+      "Juventus",
+      "River Plate"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Juventus?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "Alemania",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1954?",
+    "opciones": [
+      "Alemania",
+      "España",
+      "Inglaterra",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Brasil",
+      "Croacia",
+      "Francia",
+      "España"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Uruguay",
+      "España",
+      "Alemania",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Santos?",
+    "opciones": [
+      "Francia",
+      "Brasil",
+      "México",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1982?",
+    "opciones": [
+      "Brasil",
+      "Italia",
+      "Argentina",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1938?",
+    "opciones": [
+      "Italia",
+      "Inglaterra",
+      "Croacia",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić?",
+    "opciones": [
+      "Tottenham Hotspur",
+      "Boca Juniors",
+      "Napoli",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Pelé",
+      "Gerd Müller",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1954?",
+    "opciones": [
+      "Alemania",
+      "Países Bajos",
+      "Inglaterra",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Ajax?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "Argentina",
+      "México"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane?",
+    "opciones": [
+      "River Plate",
+      "Juventus",
+      "Ajax",
+      "Bordeaux"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Inglaterra",
+      "Italia",
+      "Alemania",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Pelé",
+      "Lionel Messi",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Miroslav Klose?",
+    "opciones": [
+      "FC Barcelona",
+      "1. FC Kaiserslautern",
+      "Santos",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Chelsea?",
+    "opciones": [
+      "México",
+      "Inglaterra",
+      "Portugal",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Eusebio",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Pelé",
+      "Eusebio",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester City?",
+    "opciones": [
+      "España",
+      "Italia",
+      "Inglaterra",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1998?",
+    "opciones": [
+      "Argentina",
+      "Países Bajos",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1962?",
+    "opciones": [
+      "Francia",
+      "Uruguay",
+      "Brasil",
+      "España"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club FC Barcelona?",
+    "opciones": [
+      "Portugal",
+      "Italia",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1990?",
+    "opciones": [
+      "Francia",
+      "Croacia",
+      "Alemania",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1938?",
+    "opciones": [
+      "Francia",
+      "Alemania",
+      "Italia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1970?",
+    "opciones": [
+      "Italia",
+      "España",
+      "Francia",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Sevilla?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "Francia",
+      "México"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Inter de Milán",
+      "River Plate",
+      "Benfica",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Chelsea?",
+    "opciones": [
+      "Francia",
+      "España",
+      "Inglaterra",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2002?",
+    "opciones": [
+      "España",
+      "Uruguay",
+      "Países Bajos",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1982?",
+    "opciones": [
+      "Uruguay",
+      "Croacia",
+      "Francia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Eusebio",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2002?",
+    "opciones": [
+      "Inglaterra",
+      "Croacia",
+      "Brasil",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Sergio Ramos?",
+    "opciones": [
+      "Ajax",
+      "Benfica",
+      "Juventus",
+      "Sevilla"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1994?",
+    "opciones": [
+      "Brasil",
+      "Uruguay",
+      "España",
+      "Italia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "Italia",
+      "Brasil",
+      "México",
+      "España"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2002?",
+    "opciones": [
+      "Uruguay",
+      "Francia",
+      "Brasil",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Inter de Milán?",
+    "opciones": [
+      "Brasil",
+      "Portugal",
+      "Alemania",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Real Madrid",
+      "Gerd Müller",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Gerd Müller",
+      "Miroslav Klose",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Pelé",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo?",
+    "opciones": [
+      "Santos",
+      "PSG",
+      "Brescia",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club River Plate?",
+    "opciones": [
+      "Argentina",
+      "México",
+      "Francia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Palmeiras?",
+    "opciones": [
+      "México",
+      "Brasil",
+      "Argentina",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2002?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "Brasil",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Ajax?",
+    "opciones": [
+      "Portugal",
+      "Países Bajos",
+      "Brasil",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Chelsea?",
+    "opciones": [
+      "Países Bajos",
+      "Inglaterra",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić?",
+    "opciones": [
+      "Tottenham Hotspur",
+      "Napoli",
+      "Ajax",
+      "Santos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Sergio Ramos?",
+    "opciones": [
+      "Boca Juniors",
+      "Sevilla",
+      "River Plate",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Santos?",
+    "opciones": [
+      "Argentina",
+      "Brasil",
+      "Inglaterra",
+      "México"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2002?",
+    "opciones": [
+      "Brasil",
+      "Uruguay",
+      "Inglaterra",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller?",
+    "opciones": [
+      "Ajax",
+      "Bayern Múnich",
+      "Inter de Milán",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo?",
+    "opciones": [
+      "PSG",
+      "Boca Juniors",
+      "Benfica",
+      "Brescia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Celtic?",
+    "opciones": [
+      "Alemania",
+      "Escocia",
+      "Argentina",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1994?",
+    "opciones": [
+      "Brasil",
+      "Francia",
+      "Inglaterra",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Eusebio",
+      "Miroslav Klose",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1986?",
+    "opciones": [
+      "Italia",
+      "Croacia",
+      "Uruguay",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Pelé",
+      "Miroslav Klose",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1986?",
+    "opciones": [
+      "Argentina",
+      "Brasil",
+      "Alemania",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Ronaldinho?",
+    "opciones": [
+      "PSG",
+      "Inter de Milán",
+      "Santos",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester United?",
+    "opciones": [
+      "Inglaterra",
+      "México",
+      "Países Bajos",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club FC Barcelona?",
+    "opciones": [
+      "Países Bajos",
+      "España",
+      "Argentina",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Porto?",
+    "opciones": [
+      "Portugal",
+      "Italia",
+      "México",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Benfica?",
+    "opciones": [
+      "México",
+      "Francia",
+      "Portugal",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Zlatan Ibrahimović",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Eusebio",
+      "Real Madrid",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club FC Barcelona?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "Francia",
+      "México"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Andrea Pirlo?",
+    "opciones": [
+      "Benfica",
+      "Inter de Milán",
+      "Brescia",
+      "River Plate"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Alemania",
+      "España",
+      "Croacia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Inglaterra",
+      "Argentina",
+      "Croacia",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Real Madrid",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Napoli",
+      "Ajax",
+      "Santos",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1990?",
+    "opciones": [
+      "Alemania",
+      "Italia",
+      "Croacia",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Borussia Dortmund?",
+    "opciones": [
+      "Alemania",
+      "México",
+      "Argentina",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Real Madrid",
+      "Eusebio",
+      "Pelé",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Alemania",
+      "España",
+      "Inglaterra",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller?",
+    "opciones": [
+      "Bayern Múnich",
+      "Juventus",
+      "AC Milan",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2006?",
+    "opciones": [
+      "Italia",
+      "Alemania",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller?",
+    "opciones": [
+      "Bayern Múnich",
+      "Ajax",
+      "FC Barcelona",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Eusebio",
+      "Lionel Messi",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Boca Juniors",
+      "Santos",
+      "PSG",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Liverpool?",
+    "opciones": [
+      "España",
+      "Italia",
+      "Inglaterra",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Palmeiras?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "México",
+      "Italia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Croacia",
+      "España",
+      "Francia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Juventus?",
+    "opciones": [
+      "México",
+      "Italia",
+      "España",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Países Bajos",
+      "Brasil",
+      "Francia",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester City?",
+    "opciones": [
+      "Portugal",
+      "Inglaterra",
+      "Italia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "Argentina",
+      "Países Bajos",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Gerd Müller",
+      "Pelé",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Cristiano Ronaldo",
+      "Real Madrid",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Croacia",
+      "Argentina",
+      "Uruguay",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Rangers?",
+    "opciones": [
+      "Escocia",
+      "España",
+      "Argentina",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Celtic?",
+    "opciones": [
+      "Brasil",
+      "Portugal",
+      "Escocia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Benfica",
+      "AC Milan",
+      "Napoli",
+      "Manchester United"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Santos",
+      "PSG",
+      "Napoli",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Corinthians?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "Francia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić?",
+    "opciones": [
+      "Tottenham Hotspur",
+      "Ajax",
+      "Santos",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club América?",
+    "opciones": [
+      "Países Bajos",
+      "España",
+      "Alemania",
+      "México"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović",
+      "Gerd Müller",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Benfica?",
+    "opciones": [
+      "Italia",
+      "Portugal",
+      "Francia",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Porto?",
+    "opciones": [
+      "Inglaterra",
+      "Italia",
+      "Brasil",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Chelsea?",
+    "opciones": [
+      "Inglaterra",
+      "Alemania",
+      "Portugal",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1986?",
+    "opciones": [
+      "Países Bajos",
+      "Brasil",
+      "España",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1950?",
+    "opciones": [
+      "Croacia",
+      "Uruguay",
+      "España",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Sevilla?",
+    "opciones": [
+      "España",
+      "Francia",
+      "Argentina",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Inter de Milán",
+      "River Plate",
+      "Santos",
+      "Benfica"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Napoli?",
+    "opciones": [
+      "Inglaterra",
+      "Francia",
+      "Italia",
+      "España"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club River Plate?",
+    "opciones": [
+      "Italia",
+      "Portugal",
+      "Francia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Sergio Ramos?",
+    "opciones": [
+      "River Plate",
+      "Real Madrid",
+      "Sevilla",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1966?",
+    "opciones": [
+      "Inglaterra",
+      "Argentina",
+      "Italia",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Italia",
+      "Alemania",
+      "Uruguay",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Ajax?",
+    "opciones": [
+      "Brasil",
+      "Países Bajos",
+      "Italia",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1986?",
+    "opciones": [
+      "Países Bajos",
+      "Argentina",
+      "Inglaterra",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Miroslav Klose",
+      "Lionel Messi",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1962?",
+    "opciones": [
+      "Italia",
+      "Argentina",
+      "Brasil",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club PSG?",
+    "opciones": [
+      "España",
+      "Inglaterra",
+      "Alemania",
+      "Francia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Eusebio",
+      "Zlatan Ibrahimović",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "Portugal",
+      "España",
+      "Brasil",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1974?",
+    "opciones": [
+      "Alemania",
+      "Brasil",
+      "Italia",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2002?",
+    "opciones": [
+      "Alemania",
+      "Brasil",
+      "Países Bajos",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Croacia",
+      "Argentina",
+      "Francia",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club PSG?",
+    "opciones": [
+      "España",
+      "Portugal",
+      "Francia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Franz Beckenbauer?",
+    "opciones": [
+      "Bayern Múnich",
+      "Santos",
+      "Boca Juniors",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Sergio Ramos?",
+    "opciones": [
+      "Napoli",
+      "FC Barcelona",
+      "Inter de Milán",
+      "Sevilla"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Porto?",
+    "opciones": [
+      "Francia",
+      "Argentina",
+      "Portugal",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Real Madrid",
+      "Gerd Müller",
+      "Pelé",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Real Madrid?",
+    "opciones": [
+      "Francia",
+      "Alemania",
+      "Italia",
+      "España"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Países Bajos",
+      "España",
+      "Uruguay",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Santos",
+      "Boca Juniors",
+      "Real Madrid",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Pelé",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2022?",
+    "opciones": [
+      "Argentina",
+      "Francia",
+      "Inglaterra",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Gerd Müller",
+      "Lionel Messi",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "España",
+      "Alemania",
+      "Francia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Brasil",
+      "Inglaterra",
+      "Países Bajos",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club AC Milan?",
+    "opciones": [
+      "México",
+      "Francia",
+      "Italia",
+      "España"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Eusebio",
+      "Pelé",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Liverpool?",
+    "opciones": [
+      "Alemania",
+      "Argentina",
+      "España",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Uruguay",
+      "Países Bajos",
+      "Brasil",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović",
+      "Pelé",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé?",
+    "opciones": [
+      "Ajax",
+      "Santos",
+      "Juventus",
+      "River Plate"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Gerd Müller",
+      "Zlatan Ibrahimović",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1970?",
+    "opciones": [
+      "Brasil",
+      "Uruguay",
+      "Francia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Robert Lewandowski",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Pelé",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Franz Beckenbauer?",
+    "opciones": [
+      "Bayern Múnich",
+      "Juventus",
+      "River Plate",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé?",
+    "opciones": [
+      "Santos",
+      "Manchester United",
+      "River Plate",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Ajax?",
+    "opciones": [
+      "Argentina",
+      "Países Bajos",
+      "Portugal",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Cristiano Ronaldo",
+      "Eusebio",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1994?",
+    "opciones": [
+      "Brasil",
+      "España",
+      "Países Bajos",
+      "Italia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gabriel Batistuta?",
+    "opciones": [
+      "Boca Juniors",
+      "Manchester United",
+      "Benfica",
+      "River Plate"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić?",
+    "opciones": [
+      "Manchester United",
+      "AC Milan",
+      "Tottenham Hotspur",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Sergio Ramos?",
+    "opciones": [
+      "Sevilla",
+      "PSG",
+      "Santos",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Roma?",
+    "opciones": [
+      "Inglaterra",
+      "España",
+      "Italia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Roberto Baggio?",
+    "opciones": [
+      "Fiorentina",
+      "AC Milan",
+      "Manchester United",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Pelé",
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Sevilla?",
+    "opciones": [
+      "Inglaterra",
+      "Portugal",
+      "Brasil",
+      "España"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1990?",
+    "opciones": [
+      "Inglaterra",
+      "España",
+      "Alemania",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Real Madrid",
+      "Zlatan Ibrahimović",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Pelé",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1974?",
+    "opciones": [
+      "Alemania",
+      "Italia",
+      "España",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1998?",
+    "opciones": [
+      "Países Bajos",
+      "Francia",
+      "Uruguay",
+      "Italia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Inglaterra",
+      "Italia",
+      "España",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Santos",
+      "River Plate",
+      "AC Milan",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Lionel Messi",
+      "Zlatan Ibrahimović",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Napoli?",
+    "opciones": [
+      "Países Bajos",
+      "Alemania",
+      "Italia",
+      "México"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club PSG?",
+    "opciones": [
+      "Francia",
+      "Países Bajos",
+      "Italia",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Ajax?",
+    "opciones": [
+      "Países Bajos",
+      "Argentina",
+      "España",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Rangers?",
+    "opciones": [
+      "Brasil",
+      "Escocia",
+      "Inglaterra",
+      "México"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Johan Cruyff?",
+    "opciones": [
+      "Real Madrid",
+      "Ajax",
+      "AC Milan",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Real Madrid",
+      "Miroslav Klose",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Uruguay",
+      "Países Bajos",
+      "Argentina",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Napoli?",
+    "opciones": [
+      "Francia",
+      "Portugal",
+      "Italia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Napoli",
+      "Boca Juniors",
+      "Inter de Milán",
+      "Benfica"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2006?",
+    "opciones": [
+      "Croacia",
+      "Italia",
+      "Francia",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Lionel Messi",
+      "Miroslav Klose",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1982?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "España",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Brasil",
+      "Uruguay",
+      "Alemania",
+      "Italia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Corinthians?",
+    "opciones": [
+      "Brasil",
+      "Argentina",
+      "Países Bajos",
+      "Italia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "Inglaterra",
+      "Brasil",
+      "España",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane?",
+    "opciones": [
+      "Bordeaux",
+      "Benfica",
+      "River Plate",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Zlatan Ibrahimović",
+      "Pelé",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Celtic?",
+    "opciones": [
+      "Escocia",
+      "Argentina",
+      "Inglaterra",
+      "Italia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2010?",
+    "opciones": [
+      "España",
+      "Francia",
+      "Inglaterra",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Napoli?",
+    "opciones": [
+      "España",
+      "Alemania",
+      "Italia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Argentina",
+      "Alemania",
+      "Italia",
+      "Croacia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2022?",
+    "opciones": [
+      "Francia",
+      "Alemania",
+      "Argentina",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Santos",
+      "Benfica",
+      "FC Barcelona",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1958?",
+    "opciones": [
+      "Italia",
+      "Brasil",
+      "Croacia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2022?",
+    "opciones": [
+      "Uruguay",
+      "Argentina",
+      "Brasil",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Paolo Maldini?",
+    "opciones": [
+      "Inter de Milán",
+      "Real Madrid",
+      "Santos",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Monterrey?",
+    "opciones": [
+      "Portugal",
+      "España",
+      "Argentina",
+      "México"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Atlético de Madrid?",
+    "opciones": [
+      "México",
+      "España",
+      "Inglaterra",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Benfica",
+      "Manchester United",
+      "Real Madrid",
+      "River Plate"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé?",
+    "opciones": [
+      "Santos",
+      "River Plate",
+      "Ajax",
+      "AC Milan"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1954?",
+    "opciones": [
+      "Brasil",
+      "Argentina",
+      "Croacia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Monterrey?",
+    "opciones": [
+      "México",
+      "Alemania",
+      "Argentina",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2018?",
+    "opciones": [
+      "Inglaterra",
+      "Brasil",
+      "Francia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Gerd Müller",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Corinthians?",
+    "opciones": [
+      "México",
+      "Francia",
+      "Brasil",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Eusebio",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Celtic?",
+    "opciones": [
+      "México",
+      "Países Bajos",
+      "Escocia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Santos?",
+    "opciones": [
+      "Argentina",
+      "Brasil",
+      "Portugal",
+      "México"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1990?",
+    "opciones": [
+      "Francia",
+      "Inglaterra",
+      "Argentina",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Gerd Müller",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Lionel Messi?",
+    "opciones": [
+      "Manchester United",
+      "Real Madrid",
+      "FC Barcelona",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Miroslav Klose?",
+    "opciones": [
+      "1. FC Kaiserslautern",
+      "FC Barcelona",
+      "PSG",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club PSG?",
+    "opciones": [
+      "Argentina",
+      "México",
+      "Francia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Johan Cruyff?",
+    "opciones": [
+      "Real Madrid",
+      "Benfica",
+      "River Plate",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Monterrey?",
+    "opciones": [
+      "México",
+      "Argentina",
+      "Francia",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Ronaldinho?",
+    "opciones": [
+      "Inter de Milán",
+      "PSG",
+      "Manchester United",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Gerd Müller",
+      "Real Madrid",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Manchester United",
+      "FC Barcelona",
+      "Boca Juniors",
+      "Santos"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1978?",
+    "opciones": [
+      "Francia",
+      "Inglaterra",
+      "Argentina",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Argentina",
+      "España",
+      "Alemania",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Lionel Messi?",
+    "opciones": [
+      "Santos",
+      "FC Barcelona",
+      "Juventus",
+      "Ajax"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Francia",
+      "Uruguay",
+      "Croacia",
+      "España"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Miroslav Klose",
+      "Eusebio",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Gerd Müller",
+      "Zlatan Ibrahimović",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Zlatan Ibrahimović",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Gerd Müller"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gerd Müller?",
+    "opciones": [
+      "Bayern Múnich",
+      "Manchester United",
+      "Juventus",
+      "Benfica"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1966?",
+    "opciones": [
+      "Uruguay",
+      "Brasil",
+      "Alemania",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Santos",
+      "Inter de Milán",
+      "Manchester United",
+      "Benfica"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Eusebio?",
+    "opciones": [
+      "Juventus",
+      "Inter de Milán",
+      "AC Milan",
+      "Benfica"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2014?",
+    "opciones": [
+      "Francia",
+      "Italia",
+      "Alemania",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Johan Cruyff?",
+    "opciones": [
+      "FC Barcelona",
+      "Ajax",
+      "Santos",
+      "Boca Juniors"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Benfica?",
+    "opciones": [
+      "Países Bajos",
+      "Argentina",
+      "Portugal",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Real Madrid?",
+    "opciones": [
+      "España",
+      "Portugal",
+      "Inglaterra",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Corinthians?",
+    "opciones": [
+      "Inglaterra",
+      "Argentina",
+      "Francia",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé?",
+    "opciones": [
+      "Benfica",
+      "Ajax",
+      "Santos",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Robert Lewandowski"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Ronaldinho?",
+    "opciones": [
+      "Santos",
+      "AC Milan",
+      "PSG",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1998?",
+    "opciones": [
+      "Inglaterra",
+      "Países Bajos",
+      "España",
+      "Francia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Roberto Baggio?",
+    "opciones": [
+      "Inter de Milán",
+      "Fiorentina",
+      "Napoli",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Real Madrid",
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Champions League ganadas por un club en el fútbol masculino?",
+    "opciones": [
+      "Gerd Müller",
+      "Robert Lewandowski",
+      "Real Madrid",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Napoli?",
+    "opciones": [
+      "España",
+      "Brasil",
+      "Italia",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "Santos",
+      "FC Barcelona",
+      "Boca Juniors",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1958?",
+    "opciones": [
+      "Brasil",
+      "Uruguay",
+      "Croacia",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Borussia Dortmund?",
+    "opciones": [
+      "Alemania",
+      "México",
+      "Argentina",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Gabriel Batistuta?",
+    "opciones": [
+      "AC Milan",
+      "Boca Juniors",
+      "Ajax",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Santos?",
+    "opciones": [
+      "Francia",
+      "México",
+      "Brasil",
+      "Países Bajos"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Luka Modrić?",
+    "opciones": [
+      "AC Milan",
+      "River Plate",
+      "Tottenham Hotspur",
+      "FC Barcelona"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Ajax?",
+    "opciones": [
+      "México",
+      "Países Bajos",
+      "Italia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Roberto Baggio?",
+    "opciones": [
+      "Santos",
+      "AC Milan",
+      "Fiorentina",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Paolo Maldini?",
+    "opciones": [
+      "River Plate",
+      "Juventus",
+      "AC Milan",
+      "Manchester United"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Borussia Dortmund?",
+    "opciones": [
+      "Italia",
+      "Alemania",
+      "Inglaterra",
+      "Francia"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En qué país juega el club Boca Juniors?",
+    "opciones": [
+      "Italia",
+      "México",
+      "Países Bajos",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1958?",
+    "opciones": [
+      "Italia",
+      "Argentina",
+      "Inglaterra",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Pelé?",
+    "opciones": [
+      "Juventus",
+      "Benfica",
+      "Ajax",
+      "Santos"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Miroslav Klose",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Roma?",
+    "opciones": [
+      "Países Bajos",
+      "Portugal",
+      "Italia",
+      "Inglaterra"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "Croacia",
+      "Francia",
+      "Italia",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más Balones de Oro en el fútbol masculino?",
+    "opciones": [
+      "Pelé",
+      "Gerd Müller",
+      "Zlatan Ibrahimović",
+      "Lionel Messi"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Porto?",
+    "opciones": [
+      "España",
+      "México",
+      "Inglaterra",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé?",
+    "opciones": [
+      "Monaco",
+      "Manchester United",
+      "Inter de Milán",
+      "PSG"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1966?",
+    "opciones": [
+      "Uruguay",
+      "Francia",
+      "Inglaterra",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1930?",
+    "opciones": [
+      "España",
+      "Inglaterra",
+      "Uruguay",
+      "Argentina"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club AC Milan?",
+    "opciones": [
+      "Argentina",
+      "México",
+      "Italia",
+      "Francia"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Pelé",
+      "Lionel Messi",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Johan Cruyff?",
+    "opciones": [
+      "Manchester United",
+      "Santos",
+      "Ajax",
+      "Real Madrid"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en selecciones nacionales (histórico, masculino) en el fútbol masculino?",
+    "opciones": [
+      "Eusebio",
+      "Miroslav Klose",
+      "Robert Lewandowski",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En qué país juega el club Rangers?",
+    "opciones": [
+      "Italia",
+      "Escocia",
+      "Países Bajos",
+      "Brasil"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović",
+      "Robert Lewandowski",
+      "Pelé"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Benfica?",
+    "opciones": [
+      "Francia",
+      "México",
+      "Portugal",
+      "Alemania"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Kylian Mbappé?",
+    "opciones": [
+      "Manchester United",
+      "River Plate",
+      "FC Barcelona",
+      "Monaco"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane?",
+    "opciones": [
+      "Juventus",
+      "Boca Juniors",
+      "Benfica",
+      "Bordeaux"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Eusebio",
+      "Cristiano Ronaldo",
+      "Zlatan Ibrahimović"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En qué país juega el club Porto?",
+    "opciones": [
+      "México",
+      "Alemania",
+      "Brasil",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 2006?",
+    "opciones": [
+      "Italia",
+      "Croacia",
+      "España",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de máximo goleador en Copas del Mundo en el fútbol masculino?",
+    "opciones": [
+      "Miroslav Klose",
+      "Pelé",
+      "Cristiano Ronaldo",
+      "Eusebio"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Benfica?",
+    "opciones": [
+      "Portugal",
+      "Argentina",
+      "Italia",
+      "Francia"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club Manchester City?",
+    "opciones": [
+      "Brasil",
+      "Inglaterra",
+      "Alemania",
+      "Portugal"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Zinedine Zidane?",
+    "opciones": [
+      "Bordeaux",
+      "Santos",
+      "Juventus",
+      "PSG"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En qué país juega el club AC Milan?",
+    "opciones": [
+      "Italia",
+      "Países Bajos",
+      "Portugal",
+      "España"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1934?",
+    "opciones": [
+      "Italia",
+      "Alemania",
+      "Francia",
+      "Uruguay"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Alfredo Di Stéfano?",
+    "opciones": [
+      "Real Madrid",
+      "FC Barcelona",
+      "River Plate",
+      "Napoli"
+    ],
+    "respuestaCorrecta": 2
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Cristiano Ronaldo?",
+    "opciones": [
+      "Manchester United",
+      "FC Barcelona",
+      "Benfica",
+      "Inter de Milán"
+    ],
+    "respuestaCorrecta": 0
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Lionel Messi",
+      "Pelé",
+      "Gerd Müller",
+      "Cristiano Ronaldo"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿Quién posee el récord de más goles en una temporada de la Champions League (temporada única) en el fútbol masculino?",
+    "opciones": [
+      "Robert Lewandowski",
+      "Cristiano Ronaldo",
+      "Pelé",
+      "Miroslav Klose"
+    ],
+    "respuestaCorrecta": 1
+  },
+  {
+    "pregunta": "¿Qué selección ganó el Mundial de 1938?",
+    "opciones": [
+      "Brasil",
+      "Francia",
+      "Argentina",
+      "Italia"
+    ],
+    "respuestaCorrecta": 3
+  },
+  {
+    "pregunta": "¿En cuál de estos clubes jugó Neymar Jr?",
+    "opciones": [
+      "PSG",
+      "Santos",
+      "Real Madrid",
+      "Juventus"
+    ],
+    "respuestaCorrecta": 1
+  }
+]
