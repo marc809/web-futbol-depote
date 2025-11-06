@@ -8,85 +8,56 @@
 </head>
 <body class="font-sans antialiased">
 
-    <!-- El padding (p-4) es más pequeño en móviles y más grande (md:p-8) en escritorio -->
     <div class="container mx-auto p-4 md:p-8 max-w-4xl">
         
-        <!-- Título más pequeño en móviles (text-3xl) -->
         <h1 class="text-3xl md:text-4xl font-bold mb-4 text-cyan-400"> WebFutbol </h1>
         
-        <div id="auth-container" class="mb-8">
-            <!-- Contenido generado por JS -->
-        </div>
+        <div id="auth-container" class="mb-8"></div>
 
         <div id="ligas-container">
             <h2 class="text-2xl md:text-3xl font-semibold mb-4">Ligas Disponibles</h2>
-            <div id="ligas-lista" class="text-lg">
-                Cargando ligas...
-            </div>
+            <div id="ligas-lista" class="text-lg">Cargando ligas...</div>
         </div>
 
         <div id="standings-container" class="hidden">
-            
             <button id="back-button" class="mb-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200">
                 &larr; Volver a Ligas
             </button>
-            
-            <h2 id="standings-title" class="text-2xl md:text-3xl font-semibold mb-4">
-                <!-- Título generado por JS -->
-            </h2>
-
-            <div id="standings-table" class="overflow-x-auto rounded-lg shadow-md">
-                Cargando tabla...
-            </div>
-
+            <h2 id="standings-title" class="text-2xl md:text-3xl font-semibold mb-4"></h2>
+            <div id="standings-table" class="overflow-x-auto rounded-lg shadow-md">Cargando tabla...</div>
             <div id="matches-container" class="mt-8">
                 <h3 class="text-xl md:text-2xl font-semibold mb-4">Próximos Partidos</h3>
-                <div id="matches-list">
-                    Cargando partidos...
-                </div>
+                <div id="matches-list">Cargando partidos...</div>
             </div>
-            
-        </div> <!-- Cierre de standings-container -->
-        
-        <div id="quiz-section" class="mt-8">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4">Quiz de Fútbol</h2>
+        </div>
 
-            <!-- Aquí se insertará el aviso de login (desde JS) -->
-            
+        <div id="videos-section" class="mt-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-cyan-400">Highlights Recientes (Goles)</h2>
+            <div id="videos-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <p class="text-gray-400">Cargando videos...</p>
+            </div>
+        </div>
+        <div id="quiz-section" class="mt-16 border-t border-gray-800 pt-8">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-4">Quiz de Fútbol</h2>
             <button id="start-quiz-button" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200">
                 ¡Empezar Quiz!
             </button>
-
             <div id="quiz-container" class="hidden mt-4 p-4 bg-gray-800 rounded-lg shadow-md">
-                
-                <div id="quiz-stats-container" class="mb-4 text-lg font-bold text-cyan-400">
-                    </div>
-                
-                <!-- Pregunta más pequeña en móviles -->
+                <div id="quiz-stats-container" class="mb-4 text-lg font-bold text-cyan-400"></div>
                 <h3 id="question-text" class="text-xl md:text-2xl font-semibold mb-4"></h3>
-                
-                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    </div>
-                
+                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
                 <div id="feedback-container" class="mt-4 text-lg font-semibold"></div>
-
             </div>
-        </div> <!-- Cierre de quiz-section -->
+        </div>
 
-        <!-- ================================== -->
-        <!-- SECCIÓN LEADERBOARD (Responsive) -->
-        <!-- ================================== -->
-        <div id="leaderboard-section" class="mt-8">
+        <div id="leaderboard-section" class="mt-12">
             <h2 class="text-2xl md:text-3xl font-semibold mb-4">Mejores Puntajes (Top 20)</h2>
             <div id="leaderboard-container" class="p-4 bg-gray-800 rounded-lg shadow-md">
                 <p>Cargando mejores puntajes...</p>
             </div>
         </div>
-        <!-- ================================== -->
-        <!-- FIN DE LEADERBOARD -->
-        <!-- ================================== -->
 
-    </div> <!-- Cierre de container mx-auto -->
+    </div> 
     
     <script src="frontend.js"></script>
 </body>
