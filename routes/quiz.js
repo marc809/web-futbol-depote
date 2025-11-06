@@ -1,45 +1,47 @@
 const express = require('express');
 const router = express.Router();
-const Question = require('../models/Question'); //
-// ¡¡NUEVO!! Importamos el modelo User para guardar el récord
-const User = require('../models/User'); //
+const Question = require('../models/Question');
+const User = require('../models/User');
 
 const TOTAL_QUESTIONS_PER_GAME = 10;
 
 // --- RUTA: GET /api/quiz/start ---
+// Inicia una nueva sesión y PRE-CARGA las 10 preguntas
 router.get('/start', async (req, res) => {
   try {
-    // 1. Inicia la sesión del quiz
-    req.session.quiz = {
-      score: 0,
-      questionCount: 0,
-      questionsAnswered: [] 
-    };
-
-    // 2. Buscamos la PRIMERA pregunta aleatoria
-    const randomQuestion = await Question.aggregate([
-      { $sample: { size: 1 } }
+    // 1. Seleccionamos 10 preguntas aleatorias de una sola vez.
+    // Esto garantiza que NO haya repetidas en esta partida.
+    const questionsForGame = await Question.aggregate([
+      { $sample: { size: TOTAL_QUESTIONS_PER_GAME } }
     ]);
 
-    if (!randomQuestion.length) {
-      return res.status(404).json({ message: 'No se encontraron preguntas en la base de datos.' });
+    // Por seguridad, si la base de datos tiene menos de 10 preguntas
+    if (questionsForGame.length < TOTAL_QUESTIONS_PER_GAME) {
+        // (Opcional: podrías dejar jugar con menos, pero mejor avisar)
+        // console.warn("Menos de 10 preguntas encontradas");
     }
-    const pregunta = randomQuestion[0];
-    req.session.quiz.questionsAnswered.push(pregunta._id);
 
-    const preguntaParaFrontend = {
-      id: pregunta._id,
-      texto: pregunta.pregunta,
-      opciones: pregunta.opciones
+    // 2. Guardamos la lista COMPLETA de preguntas en la sesión del usuario
+    req.session.quiz = {
+      score: 0,
+      currentQuestionIndex: 0, // Empezamos por la primera pregunta (índice 0)
+      questionsList: questionsForGame 
     };
 
-    // 5. Enviamos la pregunta y el estado inicial del juego
-    // (Esto es de la Mejora 1 que ya funciona)
+    // 3. Preparamos la primera pregunta para enviarla al frontend
+    const primeraPregunta = questionsForGame[0];
+    const preguntaParaFrontend = {
+      id: primeraPregunta._id,
+      texto: primeraPregunta.pregunta,
+      opciones: primeraPregunta.opciones
+    };
+
+    // 4. Enviamos la respuesta inicial
     res.status(200).json({
       message: '¡Quiz iniciado!',
       pregunta: preguntaParaFrontend,
       score: 0,
-      questionCount: 1, // Esta es la pregunta 1
+      questionCount: 1,
       totalQuestions: TOTAL_QUESTIONS_PER_GAME
     });
 
@@ -50,131 +52,95 @@ router.get('/start', async (req, res) => {
 });
 
 // --- RUTA: POST /api/quiz/submit ---
+// Recibe una respuesta, verifica y manda la siguiente de la lista guardada
 router.post('/submit', async (req, res) => {
   try {
-    if (!req.session.quiz) {
-      return res.status(400).json({ message: 'No has iniciado un quiz. Por favor, refresca la página.' });
+    // Verificamos si existe una sesión de quiz activa
+    if (!req.session.quiz || !req.session.quiz.questionsList) {
+      return res.status(400).json({ message: 'Sesión expirada o inválida. Por favor, reinicia el juego.' });
     }
 
     const { questionId, answerIndex } = req.body;
     let sessionData = req.session.quiz;
 
-    const preguntaCorrecta = await Question.findById(questionId);
-    if (!preguntaCorrecta) {
-      return res.status(404).json({ message: 'Esa pregunta ya no existe.' });
+    // 1. Obtenemos la pregunta ACTUAL desde la sesión (sin llamar a la BD de nuevo)
+    const currentQuestion = sessionData.questionsList[sessionData.currentQuestionIndex];
+
+    // Verificación de seguridad: ¿El usuario está respondiendo la pregunta correcta?
+    if (!currentQuestion || currentQuestion._id.toString() !== questionId) {
+       return res.status(400).json({ message: 'Error de sincronización. Reinicia el juego.' });
     }
 
+    // 2. Comprobamos si la respuesta es correcta
     let esCorrecto = false;
-    if (parseInt(answerIndex) === preguntaCorrecta.respuestaCorrecta) {
+    if (parseInt(answerIndex) === currentQuestion.respuestaCorrecta) {
       esCorrecto = true;
-      sessionData.score += 1; 
+      sessionData.score += 1; // Sumamos 1 punto a la partida actual
     }
-    sessionData.questionCount += 1; 
 
-    // Variables para enviar al frontend
-    let newHighScore = false;
-    let userHighScore = 0;
+    // 3. Avanzamos el índice a la siguiente pregunta
+    sessionData.currentQuestionIndex += 1;
 
-    // 4. ¿El juego ha terminado?
-    if (sessionData.questionCount >= TOTAL_QUESTIONS_PER_GAME) {
+    // 4. ¿El juego ha terminado (llegamos a 10)?
+    if (sessionData.currentQuestionIndex >= TOTAL_QUESTIONS_PER_GAME) {
       const finalScore = sessionData.score;
-      
-      // --- ¡¡LÓGICA DE MEJORA 2!! ---
-      // 
-      // Comprobamos si el usuario está autenticado
-      if (req.isAuthenticated()) { //
-        userHighScore = req.user.highScore || 0;
-        if (finalScore > userHighScore) {
-          userHighScore = finalScore;
+      let newHighScore = false;
+      let userTotalScore = 0;
+
+      // --- ACTUALIZACIÓN DE PUNTAJES EN LA BD ---
+      if (req.isAuthenticated()) {
+        // Buscamos al usuario en la BD para actualizar sus stats
+        const user = await User.findById(req.user.id);
+        
+        // ACUMULATIVO: Sumamos los puntos de esta partida al total histórico
+        user.totalScore = (user.totalScore || 0) + finalScore;
+        userTotalScore = user.totalScore;
+
+        // RÉCORD: Si esta partida fue su mejor histórica, actualizamos highScore también
+        if (finalScore > user.highScore) {
+          user.highScore = finalScore;
           newHighScore = true;
-          // Actualizamos el récord en la BD
-          await User.findByIdAndUpdate(req.user.id, { highScore: finalScore });
         }
+        await user.save();
       }
-      // ---------------------------------
-      
-      req.session.quiz = null; // Limpiamos la sesión
+      // -------------------------------------------
+
+      req.session.quiz = null; // Limpiamos la sesión porque el juego terminó
 
       return res.json({
-        message: esCorrecto ? '¡Correcto!' : `Incorrecto. La respuesta era: ${preguntaCorrecta.opciones[preguntaCorrecta.respuestaCorrecta]}`,
+        message: esCorrecto ? '¡Correcto!' : `Incorrecto. La respuesta era: ${currentQuestion.opciones[currentQuestion.respuestaCorrecta]}`,
         quizTerminado: true,
         finalScore: finalScore,
         totalQuestions: TOTAL_QUESTIONS_PER_GAME,
-        correctAnswerIndex: preguntaCorrecta.respuestaCorrecta,
-        newHighScore: newHighScore, // Enviamos 'true' si hay nuevo récord
-        userHighScore: userHighScore // Enviamos el récord (nuevo o antiguo)
+        correctAnswerIndex: currentQuestion.respuestaCorrecta,
+        userTotalScore: userTotalScore, // Enviamos el nuevo total acumulado para mostrarlo
+        newHighScore: newHighScore
       });
     }
 
-    // 5. Si el juego NO ha terminado, buscamos la siguiente pregunta
-    const siguientePreguntaArray = await Question.aggregate([
-      { $match: { _id: { $nin: sessionData.questionsAnswered } } },
-      { $sample: { size: 1 } }
-    ]);
-
-    if (!siguientePreguntaArray.length) {
-      //... (Misma lógica de fin de juego si se acaban las preguntas)
-      const finalScore = sessionData.score;
-      if (req.isAuthenticated()) {
-        userHighScore = req.user.highScore || 0;
-        if (finalScore > userHighScore) {
-          userHighScore = finalScore;
-          newHighScore = true;
-          await User.findByIdAndUpdate(req.user.id, { highScore: finalScore });
-        }
-      }
-      req.session.quiz = null;
-      return res.json({
-        message: esCorrecto ? '¡Correcto!' : `Incorrecto. La respuesta era: ${preguntaCorrecta.opciones[preguntaCorrecta.respuestaCorrecta]}`,
-        quizTerminado: true,
-        finalScore: finalScore,
-        totalQuestions: sessionData.questionCount,
-        correctAnswerIndex: preguntaCorrecta.respuestaCorrecta,
-        newHighScore: newHighScore,
-        userHighScore: userHighScore
-      });
-    }
-
-    // 6. Preparamos y enviamos la siguiente pregunta
-    const siguientePregunta = siguientePreguntaArray[0];
-    sessionData.questionsAnswered.push(siguientePregunta._id);
+    // 5. Si el juego NO ha terminado, obtenemos la SIGUIENTE pregunta de la lista
+    const siguientePregunta = sessionData.questionsList[sessionData.currentQuestionIndex];
+    
+    // Guardamos el progreso en la sesión
     req.session.quiz = sessionData;
 
-    const siguientePreguntaParaFrontend = {
-      id: siguientePregunta._id,
-      texto: siguientePregunta.pregunta,
-      opciones: siguientePregunta.opciones
-    };
-
-    const mensajeFeedback = esCorrecto ? '¡Correcto!' : `Incorrecto. La respuesta era: ${preguntaCorrecta.opciones[preguntaCorrecta.respuestaCorrecta]}`;
-
+    // Enviamos la siguiente pregunta al frontend
     res.json({
-      message: mensajeFeedback,
-      siguientePregunta: siguientePreguntaParaFrontend,
+      message: esCorrecto ? '¡Correcto!' : `Incorrecto. La respuesta era: ${currentQuestion.opciones[currentQuestion.respuestaCorrecta]}`,
+      siguientePregunta: {
+        id: siguientePregunta._id,
+        texto: siguientePregunta.pregunta,
+        opciones: siguientePregunta.opciones
+      },
       quizTerminado: false,
       score: sessionData.score,
-      questionCount: sessionData.questionCount + 1, 
+      questionCount: sessionData.currentQuestionIndex + 1, // Para mostrar "Pregunta 2/10", etc.
       totalQuestions: TOTAL_QUESTIONS_PER_GAME,
-      correctAnswerIndex: preguntaCorrecta.respuestaCorrecta
+      correctAnswerIndex: currentQuestion.respuestaCorrecta
     });
 
   } catch (error) {
     console.error('Error al enviar respuesta:', error);
-    res.status(500).json({ message: 'Error interno del servidor.' });
-  }
-});
-
-
-// Ruta de resultados (no la usamos activamente, pero es bueno tenerla)
-router.get('/results', (req, res) => {
-  try {
-    const puntajeFinal = req.session.quiz ? req.session.quiz.score : 0;
-    res.status(200).json({ 
-      message: 'Puntaje final', 
-      score: puntajeFinal 
-    });
-  } catch (error) {
-    console.error('Error al obtener resultados:', error);
     res.status(500).json({ message: 'Error interno del servidor.' });
   }
 });

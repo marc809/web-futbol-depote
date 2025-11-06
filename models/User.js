@@ -17,12 +17,18 @@ const UserSchema = new mongoose.Schema({
   googleId: {
     type: String 
   },
-  // --- ¡¡NUEVO CAMPO!! ---
+  // Récord de una sola partida (lo mantenemos por si acaso quieres mostrarlo luego)
   highScore: {
     type: Number,
     default: 0
   },
-  // -------------------------
+  // --- ¡¡NUEVO CAMPO ACUMULATIVO!! ---
+  // Aquí se sumarán todos los puntos de todas las partidas
+  totalScore: {
+    type: Number,
+    default: 0
+  },
+  // ------------------------------------
   fechaRegistro: {
     type: Date,
     default: Date.now

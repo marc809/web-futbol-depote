@@ -1,18 +1,17 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/User'); // [cite: uploaded:depote_full/models/User.js]
+const User = require('../models/User');
 
 // @ruta    GET /api/leaderboard
-// @desc    Obtener los 10 mejores puntajes (Top 10)
+// @desc    Obtener los 20 mejores puntajes acumulados (Top 20 Total)
 router.get('/', async (req, res) => {
   try {
-    // 
-    // Buscamos usuarios, los ordenamos por highScore de forma descendente,
-    // limitamos a 10 resultados y seleccionamos solo el username y el highScore.
+    // Buscamos usuarios, los ordenamos por totalScore descendente (de mayor a menor),
+    // limitamos a 20 resultados y seleccionamos el nombre y los puntajes.
     const leaderboard = await User.find()
-      .sort({ highScore: -1 }) // -1 para orden descendente
-      .limit(10)                // Límite de 10 usuarios
-      .select('username highScore'); // Solo traer nombre y puntaje (para seguridad)
+      .sort({ totalScore: -1 }) 
+      .limit(20)                
+      .select('username totalScore highScore'); 
 
     res.json(leaderboard);
   } catch (error) {
