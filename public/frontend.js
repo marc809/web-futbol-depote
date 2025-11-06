@@ -210,7 +210,7 @@ async function cargarVideos() {
         }
 
         videosContainer.innerHTML = '';
-        const videosToShow = videos.slice(0, 8);
+        const videosToShow = videos.slice(0, 12);
 
         videosToShow.forEach(match => {
             const videoDiv = document.createElement('div');
