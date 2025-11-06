@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
     const response = await axios.get(url);
     
     // Diagnóstico en terminal
-    console.log('Respuesta de ScoreBat:', JSON.stringify(response.data, null, 2));
+    //console.log('Respuesta de ScoreBat:', JSON.stringify(response.data, null, 2));
 
     // Enviamos la respuesta al frontend
     res.json(response.data.response); 
