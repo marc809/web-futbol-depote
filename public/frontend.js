@@ -1,5 +1,5 @@
 // --- Contenedores Principales (Secciones) ---
-let authContainer, homeMenu, ligasContainer, standingsContainer, videosSection, quizSection, leaderboardSection;
+let authContainer, homeMenu, contentContainer, ligasContainer, standingsContainer, videosSection, quizSection, leaderboardSection;
 // --- Elementos de Ligas ---
 let ligasLista, standingsTable, standingsTitle, backButton, matchesList;
 // --- Elementos de Quiz ---
@@ -7,23 +7,26 @@ let startQuizButton, quizContainer, questionText, optionsContainer, feedbackCont
 // --- Elementos de Leaderboard y Videos ---
 let leaderboardContainer, videosContainer;
 
-// Array con todas las secciones principales para ocultarlas fácilmente
-let todasLasSecciones = [];
+// Array con todas las secciones de contenido (no el menú)
+let contentSections = [];
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- 1. Cachear todos los elementos del DOM ---
     authContainer = document.getElementById('auth-container');
     homeMenu = document.getElementById('home-menu');
+    contentContainer = document.getElementById('content-container');
+    
+    // Secciones de contenido
     ligasContainer = document.getElementById('ligas-container');
     standingsContainer = document.getElementById('standings-container');
     videosSection = document.getElementById('videos-section');
     quizSection = document.getElementById('quiz-section');
     leaderboardSection = document.getElementById('leaderboard-section');
     
-    // Guardamos todas las secciones en un array para la navegación
-    todasLasSecciones = [homeMenu, ligasContainer, standingsContainer, videosSection, quizSection, leaderboardSection];
+    // Guardamos todas las secciones de contenido en un array para la navegación
+    contentSections = [ligasContainer, standingsContainer, videosSection, quizSection, leaderboardSection];
 
-    // Elementos internos de las secciones
+    // Elementos internos
     ligasLista = document.getElementById('ligas-lista');
     standingsTable = document.getElementById('standings-table');
     standingsTitle = document.getElementById('standings-title');
@@ -46,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
     loginWarningDiv.querySelector('#login-link-warning').addEventListener('click', (e) => {
         e.preventDefault();
-        // Hacemos scroll hasta arriba donde está el botón de Google
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
@@ -59,13 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btn-nav-leaderboard').addEventListener('click', () => mostrarSeccion('leaderboard-section'));
 
     // Botones para "Volver al Inicio"
-    // Usamos querySelectorAll para tomar todos los botones con la clase .btn-back
     document.querySelectorAll('.btn-back').forEach(button => {
         button.addEventListener('click', () => mostrarSeccion('home-menu'));
     });
 
     // Botón especial "Volver a Ligas" (dentro de Standings)
-    backButton.addEventListener('click', () => mostrarSeccion('ligas-container'));
+    backButton.addEventListener('click', () => mostrarSeccion('ligas-container', true)); // true para indicar que es una sub-navegación
 
     // Listeners de funcionalidad
     if (startQuizButton) startQuizButton.addEventListener('click', iniciarQuiz);
@@ -83,27 +84,35 @@ document.addEventListener('DOMContentLoaded', () => {
 // ===================================
 // --- [NUEVO] FUNCIÓN DE NAVEGACIÓN ---
 // ===================================
-function mostrarSeccion(idDeSeccion) {
-    // 1. Ocultar todas las secciones
-    todasLasSecciones.forEach(seccion => {
+function mostrarSeccion(idDeSeccion, esSubNavegacion = false) {
+    // 1. Ocultar el menú principal O el contenedor de contenido
+    if (idDeSeccion === 'home-menu') {
+        homeMenu.classList.remove('hidden');
+        contentContainer.classList.add('hidden');
+    } else {
+        homeMenu.classList.add('hidden');
+        contentContainer.classList.remove('hidden');
+    }
+
+    // 2. Ocultar todas las secciones de contenido
+    contentSections.forEach(seccion => {
         if (seccion) seccion.classList.add('hidden');
     });
 
-    // 2. Mostrar solo la sección deseada
+    // 3. Mostrar solo la sección deseada
     const seccionActiva = document.getElementById(idDeSeccion);
     if (seccionActiva) {
         seccionActiva.classList.remove('hidden');
     }
     
-    // 3. Asegurarnos que el contenedor de auth (login/saludo) siempre esté visible
-    if (authContainer) {
-        authContainer.classList.remove('hidden');
+    // 4. Scroll al inicio de la página al cambiar de sección
+    if (!esSubNavegacion) { // No hacer scroll si solo volvemos de tabla a ligas
+        window.scrollTo(0, 0);
     }
 }
 
 // ===================================
 // --- LÓGICA DE LA APLICACIÓN ---
-// (Funciones antiguas, ligeramente modificadas para la nueva navegación)
 // ===================================
 
 // --- Videos ---
@@ -120,13 +129,13 @@ async function cargarVideos() {
         videosToShow.forEach(match => {
             const videoDiv = document.createElement('div');
             videoDiv.className = 'bg-gray-800 rounded-lg shadow-md overflow-hidden';
-            const embedCode = match.videos && match.videos[0] ? match.videos[0].embed : '<p>Video no disponible</p>';
+            const embedCode = match.videos && match.videos[0] ? match.videos[0].embed : '<p class="p-4 text-center">Video no disponible</p>';
             videoDiv.innerHTML = `
                 <div class="p-3 bg-gray-700">
                     <h3 class="font-semibold truncate" title="${match.title}">${match.title}</h3>
                     <p class="text-sm text-gray-400">${match.competition}</p>
                 </div>
-                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                <div class="video-container">
                     ${embedCode.replace(/width='100%'|height='100%'|style='[^']+'/g, 'style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"')}
                 </div>`;
             videosContainer.appendChild(videoDiv);
@@ -207,9 +216,9 @@ async function cargarPartidos(id) {
 }
 
 // --- Botón especial "Volver a Ligas" ---
+// (Esta función ahora es llamada por el botón 'back-button' en el DOMContentLoaded)
 function mostrarLigas() { 
-    // ¡CAMBIO! Usamos la nueva navegación
-    mostrarSeccion('ligas-container');
+    mostrarSeccion('ligas-container', true); // true para evitar el scroll
 }
 
 // --- Quiz ---

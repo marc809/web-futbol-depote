@@ -7,93 +7,135 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Estilos para asegurar que los iframes de ScoreBat sean responsivos */
-        .video-wrapper iframe {
+        .video-wrapper iframe, 
+        .video-wrapper > div { /* El div que a veces envuelve al iframe */
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
             min-height: 200px; /* Altura mínima para el video */
+        }
+        .video-container {
+            position: relative; 
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0; 
+            overflow: hidden;
         }
     </style>
 </head>
 <body class="font-sans antialiased">
 
-    <div class="container mx-auto p-4 md:p-8 max-w-4xl min-h-screen">
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl min-h-screen">
         
-        <h1 class="text-3xl md:text-4xl font-bold mb-4 text-cyan-400">WebFutbol</h1>
+        <h1 class="text-3xl md:text-4xl font-bold mb-4 text-cyan-400 tracking-wider">WebFutbol</h1>
         <div id="auth-container" class="mb-8"></div>
         <hr class="border-gray-700 mb-8">
 
         <div id="home-menu">
             <h2 class="text-2xl md:text-3xl font-semibold mb-6">Menú Principal</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
                 
-                <button id="btn-nav-ligas" class="bg-cyan-600 hover:bg-cyan-700 text-white p-6 rounded-lg text-left shadow-lg transition duration-200">
-                    <h3 class="text-xl font-bold mb-1">Ligas y Tablas</h3>
-                    <p class="text-cyan-100">Ver tablas de posiciones y próximos partidos.</p>
+                <button id="btn-nav-ligas" class="menu-button group bg-gradient-to-r from-cyan-600 to-blue-700 p-6 rounded-lg shadow-lg hover:shadow-cyan-400/30 transform transition-all duration-300 hover:scale-[1.03]">
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-cyan-500 rounded-full transition-transform duration-300 group-hover:rotate-6">
+                            <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-6.75c-.621 0-1.125.504-1.125 1.125V18.75m9 0h-9" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Ligas y Tablas</h3>
+                            <p class="text-cyan-100 text-sm">Ver tablas de posiciones y partidos.</p>
+                        </div>
+                    </div>
                 </button>
                 
-                <button id="btn-nav-quiz" class="bg-green-600 hover:bg-green-700 text-white p-6 rounded-lg text-left shadow-lg transition duration-200">
-                    <h3 class="text-xl font-bold mb-1">Jugar Quiz</h3>
-                    <p class="text-green-100">Pon a prueba tu conocimiento y suma puntos.</p>
+                <button id="btn-nav-quiz" class="menu-button group bg-gradient-to-r from-green-600 to-emerald-700 p-6 rounded-lg shadow-lg hover:shadow-green-400/30 transform transition-all duration-300 hover:scale-[1.03]">
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-green-500 rounded-full transition-transform duration-300 group-hover:rotate-6">
+                            <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Jugar Quiz</h3>
+                            <p class="text-green-100 text-sm">Pon a prueba tu conocimiento.</p>
+                        </div>
+                    </div>
                 </button>
                 
-                <button id="btn-nav-videos" class="bg-red-600 hover:bg-red-700 text-white p-6 rounded-lg text-left shadow-lg transition duration-200">
-                    <h3 class="text-xl font-bold mb-1">Ver Highlights</h3>
-                    <p class="text-red-100">Mira los goles y resúmenes más recientes.</p>
+                <button id="btn-nav-videos" class="menu-button group bg-gradient-to-r from-red-600 to-rose-700 p-6 rounded-lg shadow-lg hover:shadow-red-400/30 transform transition-all duration-300 hover:scale-[1.03]">
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-red-500 rounded-full transition-transform duration-300 group-hover:rotate-6">
+                            <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Ver Highlights</h3>
+                            <p class="text-red-100 text-sm">Mira los goles más recientes.</p>
+                        </div>
+                    </div>
                 </button>
                 
-                <button id="btn-nav-leaderboard" class="bg-yellow-600 hover:bg-yellow-700 text-white p-6 rounded-lg text-left shadow-lg transition duration-200">
-                    <h3 class="text-xl font-bold mb-1">Mejores Puntajes</h3>
-                    <p class="text-yellow-100">Revisa el Top 20 de jugadores.</p>
+                <button id="btn-nav-leaderboard" class="menu-button group bg-gradient-to-r from-yellow-600 to-amber-700 p-6 rounded-lg shadow-lg hover:shadow-yellow-400/30 transform transition-all duration-300 hover:scale-[1.03]">
+                    <div class="flex items-center space-x-4">
+                        <div class="p-3 bg-yellow-500 rounded-full transition-transform duration-300 group-hover:rotate-6">
+                            <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25A1.125 1.125 0 019.75 19.875V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Mejores Puntajes</h3>
+                            <p class="text-yellow-100 text-sm">Revisa el Top 20 de jugadores.</p>
+                        </div>
+                    </div>
                 </button>
 
             </div>
         </div>
 
-        <div id="ligas-container" class="hidden">
-            <button class="btn-back mb-4 text-cyan-400 hover:text-cyan-300">&larr; Volver al Inicio</button>
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4">Ligas Disponibles</h2>
-            <div id="ligas-lista" class="text-lg">Cargando ligas...</div>
-        </div>
-
-        <div id="standings-container" class="hidden">
-            <button id="back-button" class="mb-4 bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200">
-                &larr; Volver a Ligas
+        <div id="content-container" class="hidden">
+            <button class="btn-back flex items-center space-x-2 mb-6 text-cyan-400 hover:text-cyan-300 transition duration-200">
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
+                <span>Volver al Inicio</span>
             </button>
-            <h2 id="standings-title" class="text-2xl md:text-3xl font-semibold mb-4"></h2>
-            <div id="standings-table" class="overflow-x-auto rounded-lg shadow-md">Cargando tabla...</div>
-            <div id="matches-container" class="mt-8">
-                <h3 class="text-xl md:text-2xl font-semibold mb-4">Próximos Partidos</h3>
-                <div id="matches-list">Cargando partidos...</div>
-            </div>
-        </div>
 
-        <div id="videos-section" class="hidden">
-            <button class="btn-back mb-4 text-cyan-400 hover:text-cyan-300">&larr; Volver al Inicio</button>
-            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-cyan-400">Highlights Recientes (Goles)</h2>
-            <div id="videos-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <p class="text-gray-400">Cargando videos...</p>
+            <div id="ligas-container" class="content-section hidden">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white border-b-2 border-cyan-500/30 pb-2">Ligas Disponibles</h2>
+                <div id="ligas-lista" class="text-lg">Cargando ligas...</div>
             </div>
-        </div>
-        
-        <div id="quiz-section" class="hidden">
-            <button class="btn-back mb-4 text-cyan-400 hover:text-cyan-300">&larr; Volver al Inicio</button>
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4">Quiz de Fútbol</h2>
-            <button id="start-quiz-button" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200">
-                ¡Empezar Quiz!
-            </button>
-            <div id="quiz-container" class="hidden mt-4 p-4 bg-gray-800 rounded-lg shadow-md">
-                <div id="quiz-stats-container" class="mb-4 text-lg font-bold text-cyan-400"></div>
-                <h3 id="question-text" class="text-xl md:text-2xl font-semibold mb-4"></h3>
-                <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
-                <div id="feedback-container" class="mt-4 text-lg font-semibold"></div>
-            </div>
-        </div>
 
-        <div id="leaderboard-section" class="hidden">
-            <button class="btn-back mb-4 text-cyan-400 hover:text-cyan-300">&larr; Volver al Inicio</button>
-            <h2 class="text-2xl md:text-3xl font-semibold mb-4">Mejores Puntajes (Top 20)</h2>
-            <div id="leaderboard-container" class="p-4 bg-gray-800 rounded-lg shadow-md">
-                <p>Cargando mejores puntajes...</p>
+            <div id="standings-container" class="content-section hidden">
+                <button id="back-button" class="flex items-center space-x-2 mb-6 text-cyan-400 hover:text-cyan-300 transition duration-200">
+                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
+                    <span>Volver a Ligas</span>
+                </button>
+                <h2 id="standings-title" class="text-3xl md:text-4xl font-bold mb-6 text-white"></h2>
+                <div id="standings-table" class="overflow-x-auto rounded-lg shadow-md bg-gray-800/50">Cargando tabla...</div>
+                <div id="matches-container" class="mt-12">
+                    <h3 class="text-2xl md:text-3xl font-semibold mb-6">Próximos Partidos</h3>
+                    <div id="matches-list">Cargando partidos...</div>
+                </div>
+            </div>
+
+            <div id="videos-section" class="content-section hidden">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white border-b-2 border-red-500/30 pb-2">Highlights Recientes (Goles)</h2>
+                <div id="videos-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <p class="text-gray-400">Cargando videos...</p>
+                </div>
+            </div>
+            
+            <div id="quiz-section" class="content-section hidden">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white border-b-2 border-green-500/30 pb-2">Quiz de Fútbol</h2>
+                <button id="start-quiz-button" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-lg shadow-md hover:shadow-green-400/30 transition duration-200">
+                    ¡Empezar Quiz!
+                </button>
+                <div id="quiz-container" class="hidden mt-6 p-4 md:p-6 bg-gray-800 rounded-lg shadow-xl">
+                    <div id="quiz-stats-container" class="mb-4 text-lg font-bold text-cyan-400"></div>
+                    <h3 id="question-text" class="text-xl md:text-2xl font-semibold mb-6"></h3>
+                    <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+                    <div id="feedback-container" class="mt-4 text-lg font-semibold"></div>
+                </div>
+            </div>
+
+            <div id="leaderboard-section" class="content-section hidden">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white border-b-2 border-yellow-500/30 pb-2">Mejores Puntajes (Top 20)</h2>
+                <div id="leaderboard-container" class="p-4 bg-gray-800/50 rounded-lg shadow-md">
+                    <p>Cargando mejores puntajes...</p>
+                </div>
             </div>
         </div>
 
